@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>エと工を見分ける</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h4 id="reflectCorrect"></h4>
+            <h4 id="reflectWrong"></h4>
+        </div>
+
+        <div>
+            <h2 id="q">エと工とニと二を見分けるだけ</h2>
+        </div>
+
+        <div>
+            <button id="normalBtn" type="button" onclick="normal()">ノーマル</button>
+        </div>
+
+        <div>
+            <button id="kana" type="button" onclick="kanaJudge()">カタカナ</button>
+            <button id="kanji" type="button" onclick="kanjiJudge()">漢字</button>
+            <button id="retry" type="button" onclick="re()">リトライ</button>
+        </div>
+    </main>
+
+    <script src="./main_engine.js"></script>
+</body>
+</html>
